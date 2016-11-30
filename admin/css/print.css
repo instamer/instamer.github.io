@@ -1,0 +1,49 @@
+.page, .main-container, .sub-container {
+	margin: 0;
+	width: 100%;
+	border-width: 0;
+}
+
+.page-navbar {
+	margin: 0;
+	padding: 3px 0 !important;
+	color: black;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold !important;
+	line-height: 1em !important;
+}
+
+.noprint {
+	display: none;
+}
+
+.page-navbar td, .page-navbar th, tbody td, tbody th {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	min-height: auto !important;
+	width: auto !important;
+}
+
+.page-navbar td.small, .page-navbar th.small {
+	font-weight: bold;
+	padding: 30px 0 0 0 !important;
+	line-height: 1em !important;
+	margin: 0 !important;
+	vertical-align: baseline;
+}
+
+.store-large-icon {
+	text-align: left !important;
+}
+
+.store-large-icon img {
+	max-width: 50px !important;
+}
+
+.print-text-right, td.print-text-right, th.print-text-right {
+	text-align: right;
+}
+
+table table {
+	margin: 0;
+}
